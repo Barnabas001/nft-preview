@@ -40,10 +40,10 @@ function NftCard({
   creatoAvatar,
 }: NftCardProps) {
   return (
-    <div className="bg-blue-900 rounded-2xl p-6 max-w-sm w-full">
+    <div className="font-outfit bg-blue-900 rounded-2xl p-6 max-w-sm w-full">
       <div className="relative group rounded-xl overflow-hidden mb-4 cursor-pointer">
         <img src={image} className="w-full rounded-xl" />
-        <div className="absolute insect-0 bg-cyan-400/50 opacity-0 group-hover:opacity-100 duration-300 flex item-center justify-center">
+        <div className="absolute inset-0 bg-cyan-400/50 opacity-0 group-hover:opacity-100 duration-300 flex items-center justify-center">
           <img src={iconView} alt="view icon" />
         </div>
       </div>
